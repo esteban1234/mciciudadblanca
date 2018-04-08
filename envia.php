@@ -22,7 +22,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@mciciudadblanca.com");
+// $mail->addAddress("info@mciciudadblanca.com");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 
@@ -50,7 +51,6 @@ if(!$mail->send())
             <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>Error</strong> al enviar los datos.
                 </div>';
-	// $html = 2;
 
 }
 else

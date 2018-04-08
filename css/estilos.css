@@ -60,6 +60,11 @@ a.go-top:hover {
 .logo{
     width: 20%;
 }
+
+.openclose{
+    display: none;
+}
+
 nav{
     margin-top: 5%;
     margin-right: 5%;

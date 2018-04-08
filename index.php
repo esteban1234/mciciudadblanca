@@ -55,10 +55,14 @@
         <figure class="logo pull-left">
           <img src="img/mci.png" alt="mciciudadblanca" class="img-responsive">
         </figure>
+
+        <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>  
       </div>
 
-      <h1>Tus Consultores de Confianza</h1>
-      <p>Te asesoramos estratégicamente e integralmente a construir un negocio de éxito</p>
+      <h1 class="tit-cc">Tus Consultores de Confianza</h1>
+      <p class="subtit-cc">Te asesoramos estratégicamente e integralmente a construir un negocio de éxito</p>
 
       <div class="boton">
         <a data-scroll href="#CONTACTO" aria-pressed="true" class="btn btn-warning btn-outline btn-lg btn-contacto">CONTACTANOS</a>
@@ -71,8 +75,8 @@
 <section class="seccion1" id="SERVICIOS" >
   
   <div class="box">
-    <h1 class="text-center">Servicios</h1> <br><br>
-    <div class="row">
+    <h1 class="text-center tit-s">Servicios</h1> <br class="delete-br"><br class="delete-br">
+    <div class="row cont-box">
       <div class="box3">
         <h1>Asuntos Penales</h1>
         <p>Homicidio, violación, fraudes, despojos, delitos contra la salud, transportacion y estupefaccion de estupefacientes.
@@ -89,8 +93,8 @@
         </p>
       </div>
     </div>
-    <br>
-    <div class="row">
+    <br class="delete-br">
+    <div class="row cont-box">
       <div class="box3">
         <h1>Juicios Agrarios</h1>
         <p>Restitución de tierras, cobro de indemnizaciones, decretos expropiatorios, reversión de tierras.
@@ -115,21 +119,21 @@
 
 <section class="seccion2" id="NOSOTROS">
   <div class="fondon">
-    <div class="section" style="padding:7% 5% 5% 5%;">
+    <div class="section cont-colcol" style="padding:7% 5% 5% 5%;">
       <div class="container">
-        <h1 class="text-center" style="color: #fff;">ACERCA DE NOSOTROS</h1> <br><br>
-        <div class="row">
-          <div class="col-md-4">
-            <h2 style="color: #fff;font-family: 'Roboto', sans-serif;">Misión</h2>
-            <p style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Lograr resultados exitosos y la plena satisfacción de nuestros clientes en todos los servicios ofrecidos, tanto a nivel nacional como internacional; garantizando un servicio de calidad, expertos en la materia, confidencialidad y ética en la profesión.</p>
+        <h1 class="text-center tit-an" style="color: #fff;">ACERCA DE NOSOTROS</h1> <br class="delete-br"><br class="delete-br">
+        <div class="row cont-col">
+          <div class="col-sm-4 col-md-4">
+            <h2 class="tit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif;">Misión</h2>
+            <p class="subtit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Lograr resultados exitosos y la plena satisfacción de nuestros clientes en todos los servicios ofrecidos, tanto a nivel nacional como internacional; garantizando un servicio de calidad, expertos en la materia, confidencialidad y ética en la profesión.</p>
           </div>
-          <div class="col-md-4">
-            <h2 style="color: #fff;font-family: 'Roboto', sans-serif;">Visión</h2>
-            <p style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Brindar al cliente una solución práctica y profesional, relacionada con el problema que presenta, dentro de los parámetros legales existentes en nuestra legislación o legislaciones.</p>
+          <div class="col-sm-4 col-md-4">
+            <h2 class="tit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif;">Visión</h2>
+            <p class="subtit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Brindar al cliente una solución práctica y profesional, relacionada con el problema que presenta, dentro de los parámetros legales existentes en nuestra legislación o legislaciones.</p>
           </div>
-          <div class="col-md-4">
-            <h2 style="color: #fff;font-family: 'Roboto', sans-serif;">Valores</h2>
-            <p style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Actuamos con rectitud e integridad, nos desempeñamos con exactitud, profesionalismo, lealtad, puntualidad, honestidad, tolerancia, calidad humana, pluralidad, respeto, eficacia, legalidad y una gran calidad humano; por lo tanto somos un despacho confiable.</p>
+          <div class="col-sm-4 col-md-4">
+            <h2 class="tit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif;">Valores</h2>
+            <p class="subtit-mvv" style="color: #fff;font-family: 'Roboto', sans-serif; font-size: 16px;">Actuamos con rectitud e integridad, nos desempeñamos con exactitud, profesionalismo, lealtad, puntualidad, honestidad, tolerancia, calidad humana, pluralidad, respeto, eficacia, legalidad y una gran calidad humano; por lo tanto somos un despacho confiable.</p>
           </div>
         </div>
         <p class="texton">Nuestro equipo de abogados está altamente calificado para brindarle soluciones jurídicas y asesoría personal. <br><br>
@@ -147,44 +151,44 @@
             <div class="container">
                 <div class="row">
                     <div class="about_our_company" style="margin-bottom: 20px;">
-                        <h1 style="color:#000;">Formulario de contacto</h1>
+                        <h1 class="tit-fc" style="color:#000;">Formulario de contacto</h1>
                         <div class="titleline-icon"></div>
                         <p style="color:#000;">RECIBE ASESORÍA DE NUESTROS EXPERTOS, ¡CONTÁCTANOS!</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
-                        <form name="sentMessage" id="contactForm" novalidate="">
+                    <div class="col-md-7">
+                        <form name="sentMessage" id="contactForm" novalidate="" onSubmit="return false">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Nombre Completo *" id="name" required="" data-validation-required-message="Nombre Completo">
+                                        <input type="text" class="form-control" placeholder="Nombre Completo *" id="txtNOMBRE" required="" data-validation-required-message="Nombre Completo">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Correo *" id="email" required="" data-validation-required-message="Correo">
+                                        <input type="email" class="form-control" placeholder="Correo *" id="txtCORREO" required="" data-validation-required-message="Correo">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Teléfono *" id="phone" required="" data-validation-required-message="Teléfono">
+                                        <input type="tel" class="form-control" placeholder="Teléfono *" id="txtTELEFONO" required="" data-validation-required-message="Teléfono">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Comentario *" id="message" required="" data-validation-required-message="Comentario"></textarea>
+                                        <textarea class="form-control" placeholder="Comentario *" id="txtCOMENTARIO" required="" data-validation-required-message="Comentario"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn btn-warning btn-xl get">Enviar Mensaje</button>
+                                    <div id="_AJAX_PRE_" ></div>
+                                    <button type="submit" class="btn btn-warning btn-xl get" onclick="sendCORREO()">Enviar Mensaje</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5 cont-info">
                         <p style="color:#000;">
                             <strong><i class="fa fa-map-marker"></i> Dirección</strong><br>
                             C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.
